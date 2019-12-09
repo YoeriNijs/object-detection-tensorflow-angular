@@ -1,0 +1,15 @@
+<app-prediction
+  [objectToPredict]="data.objectToDetect"
+  [predictionThreshold]="data.threshold"
+  [isStopOnObjectFoundEnabled]="data.quitOnFound"
+  (predictionChange)="handlePredictionChange($event)"
+></app-prediction>
+
+<div *ngFor="let result of results">
+  <p>Classification: {{ result.object }}</p>
+  <p [class.correct]="result.correct"
+     [class.incorrect]="!result.correct">
+    Correct: {{ result.correct }}
+  </p>
+  <p>Certainty: {{ result.certainty }}%</p>
+</div>

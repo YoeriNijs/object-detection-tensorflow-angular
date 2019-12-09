@@ -1,0 +1,29 @@
+:host {
+  canvas {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  // Dirty style hacks, but enough for the demo.
+  // We should never ever accept this on prod.
+  ::ng-deep canvas {
+    left: 0;
+    width: 100%;
+  }
+
+  ::ng-deep .webcam-wrapper {
+    height: 100%;
+    position: relative;
+    width: 100%;
+
+    video {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.found {
+  border: 2px solid green;
+}

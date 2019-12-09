@@ -1,0 +1,20 @@
+:host {
+  height: 600px;
+  position: absolute;
+  width: 800px;
+
+  p {
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .correct {
+    background-color: green;
+    color: white;
+  }
+
+  .incorrect {
+    background-color: red;
+    color: white;
+  }
+}

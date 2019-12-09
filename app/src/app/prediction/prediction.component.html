@@ -1,0 +1,8 @@
+<webcam [trigger]="triggerObservable"
+        [imageQuality]="1"
+        [captureImageData]="true"
+        (initError)="error($event)"
+        (imageCapture)="capture($event)"
+></webcam>
+
+<canvas #canvas [width]="800" [height]="600"></canvas>
