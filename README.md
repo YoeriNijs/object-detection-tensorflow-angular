@@ -1,5 +1,5 @@
 # object-detection-tensorflow-angular
-Object Detection (coco-ssd) with Tensorflow in an Angular application
+Object Detection (coco-ssd) with Tensorflow in an Angular application.
 
 Just a sample Angular application that shows how one can implement object detection by the coco-ssd algorithm in Tensorflow.
 
