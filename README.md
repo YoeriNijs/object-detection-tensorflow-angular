@@ -11,4 +11,4 @@ Install by `npm i`
 Serve by `npm run start`
 
 # Screenshots
-![Imgur Image](https://imgur.com/01MM2jm)
+https://imgur.com/01MM2jm
